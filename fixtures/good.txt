@@ -1,0 +1,1 @@
+{"tools":[{"name":"read_file","description":"Read a file"},{"name":"delete_record","description":"Deletes a record, risky"}]}

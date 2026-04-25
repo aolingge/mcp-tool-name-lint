@@ -1,0 +1,31 @@
+{
+  "name": "mcp-tool-name-lint",
+  "version": "0.1.0",
+  "description": "Detect vague or risky MCP tool names before agents see a confusing tool list.",
+  "type": "module",
+  "bin": {
+    "mcp-tool-name-lint": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js --path fixtures/good.txt --min-score 75"
+  },
+  "keywords": [
+    "mcp",
+    "tool-names",
+    "ai-agent",
+    "security",
+    "developer-tools",
+    "cli"
+  ],
+  "author": "Aolingge",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aolingge/mcp-tool-name-lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aolingge/mcp-tool-name-lint/issues"
+  },
+  "homepage": "https://github.com/aolingge/mcp-tool-name-lint"
+}
