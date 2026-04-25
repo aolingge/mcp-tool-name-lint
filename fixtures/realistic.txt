@@ -1,0 +1,5 @@
+{"tools":[{"name":"read_file","description":"Read a file"},{"name":"delete_record","description":"Deletes a record, risky"}]}
+
+# Realistic extension
+
+This fixture is safe to share and contains no real secrets.

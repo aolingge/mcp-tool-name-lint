@@ -1,6 +1,6 @@
 {
   "name": "mcp-tool-name-lint",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Detect vague or risky MCP tool names before agents see a confusing tool list.",
   "type": "module",
   "bin": {
@@ -27,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/aolingge/mcp-tool-name-lint/issues"
   },
-  "homepage": "https://github.com/aolingge/mcp-tool-name-lint"
+  "homepage": "https://github.com/aolingge/mcp-tool-name-lint",
+  "files": [
+    "src",
+    "fixtures",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ]
 }
